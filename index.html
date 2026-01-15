@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API - Optimización Fetch</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Rick and Morty API</h1>
+        <p class="subtitle">Consumo de API REST con optimización de memoria local</p>
+        
+        <div class="control-panel">
+            <button onclick="mostrarTodos()" class="btn-primary">1. Obtener Personajes</button>
+            <button onclick="filtrarPorEspecie()" class="btn-secondary">2. Agrupar por Especie</button>
+            <button onclick="mostrarFicha(1)" class="btn-accent">3. Ver Ficha (Rick)</button>
+        </div>
+
+        <div id="status-msg" class="status-box">Listo para consultar.</div>
+
+        <div id="resultados" class="grid-container">
+            </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
