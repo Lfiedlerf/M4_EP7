@@ -42,6 +42,9 @@ M4_EP6/
 ### 3. Ver ficha (Rick)
 ![Ver ficha (Rick)](img/M4_EP7_Evidencia03.png)
 
+### 4. Visualización de logs
+![Visualización de logs](img/M4_EP7_Evidencia04.png)
+
 ## Instalación
 
 **Clonar el repositorio:**
